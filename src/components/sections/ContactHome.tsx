@@ -90,6 +90,7 @@ function ContactHome() {
                     const response = await axios.post(`/api/contact/`,JSON.stringify(values),{headers: {'Content-Type': 'application/json'}}); 
                     if(response.status == 201){
                         toast.success("Thank you! Your message has been sent successfully. We’ll get back to you shortly.");
+                        form.reset();
                     }else{
                         toast.error(response.data.message);
                     }
@@ -177,7 +178,7 @@ function ContactHome() {
             <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
 
             <Form {...form}>
-                <form  onSubmit={form.handleSubmit(handleSubmitButton)}>
+                <form   onSubmit={form.handleSubmit(handleSubmitButton)}>
                     <div className="-mx-2 md:items-center md:flex">
                         <div className="flex-1 px-2">
                         <FormField

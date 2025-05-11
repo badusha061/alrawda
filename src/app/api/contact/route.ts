@@ -69,7 +69,7 @@ export async function POST(request:NextRequest) {
                     <tr>
                         <td>
                         <h2 style="text-align:center; margin: 0px; padding-bottom: 25px; margin-top: 25px;">
-                            <i style="color: #9208f4;" >Athe</i><span style="color:#9208f4">Ko</span></h2>
+                            <i style="color: [rgb(8,116,156)]" >AL</i><span style="color:[rgb(8,116,156)]">RAWDA</span></h2>
                         </td>
                     </tr>
                     <tr>
