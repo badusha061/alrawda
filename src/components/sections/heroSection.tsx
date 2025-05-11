@@ -62,7 +62,7 @@ function HeroSection() {
              <a href="https://flowbite.com/blocks/" target="_blank" className="hover:underline"> customer base</a>.
           </p>
 
-          <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <Link  href='/service'>
                 <Button className={`${poppins.className} inline-flex items-center justify-center w-full px-5 py-3 bg-[rgb(8,116,156)] text-sm font-medium text-center text-white border border-gray-200 rounded-lg hover:cursor-pointer hover:shadow-2xl sm:w-auto focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-[rgb(8,116,156)] dark:hover:bg-[rgb(8,116,156)] dark:focus:ring-gray-800`}>
                     <HandPlatter />

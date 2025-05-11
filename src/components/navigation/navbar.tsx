@@ -73,7 +73,7 @@ function Navbar() {
       </div>
     </nav>
 
-        <ResponsiveMenu open={isopen} />
+        <ResponsiveMenu open={isopen} setOpen={setIsopen} />
 
     </>
   )
