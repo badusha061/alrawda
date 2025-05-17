@@ -53,7 +53,7 @@ function HeroSection() {
       <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className={`${poppins.className} max-w-2xl mb-4 text-4xl  leading-none tracking-tight md:text-5xl xl:text-6xl text-[rgb(8,116,156)] dark:text-[rgb(8,116,156)]`}>
-            Al Rawda <br />Tehincal Services 
+            Al Rawda <br />Technical Services 
           </h1>
 
           <p className={`${inter.className} max-w-2xl mb-6  text-[#08749c] lg:mb-8 md:text-lg lg:text-xl dark:text-[#08749c]`}>

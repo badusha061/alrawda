@@ -26,32 +26,31 @@ function CustomerSection() {
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
         <Image
           alt=""
-          src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-indigo-600.svg"
-          className="mx-auto h-12"
-          width={500}
-          height={500}
+          src="https://res.cloudinary.com/dzvxebtnl/image/upload/v1745081051/al%20rawda/brmdxmdyusrhc2aq12oy.jpg"
+          className="mx-auto"
+          width={100}
+          height={100}
         />
         <figure className="mt-10">
           <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
             <p className={`${inter.className}`}>
-              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-              molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+               AL RAWDA Technical Service, our mission is to deliver the highest quality lead shielding solutions with precision and care. We take pride in our expertise, reliability, and commitment to safety. Every project we handle reflects our dedication to excellence and customer satisfaction.”
             </p>
           </blockquote>
           <figcaption className="mt-10">
             <Image
-              alt=""
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              alt="photo"
+              src="https://res.cloudinary.com/dzvxebtnl/image/upload/v1747322731/al%20rawda/ce0_mnsnum.jpg"
               className="mx-auto size-10 rounded-full" 
               width={500}
               height={500}
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className={`${poppins.className}  text-gray-900`}>Judith Black</div>
+              <div className={`${poppins.className}  text-gray-900`}>Muhammed Riyas</div>
               <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
                 <circle r={1} cx={1} cy={1} />
               </svg>
-              <div className={`${inter.className} text-gray-600`}>CEO of Workcation</div>
+              <div className={`${inter.className} text-gray-600`}>CEO of AL RAWDA Tehincal</div>
             </div>
           </figcaption>
         </figure>
