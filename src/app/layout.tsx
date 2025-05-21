@@ -3,6 +3,13 @@ import "./globals.css";
 import Navbar from "@/components/navigation/navbar";
 import Footer from "@/components/footer/Footer";
 import {Toaster} from 'sonner'
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Al Rawda"
+};
+
 
 
 

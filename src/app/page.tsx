@@ -7,15 +7,13 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: {
-    absolute: "",
-    default: "Al Rawda",
-    template: ""
-  },
+  title: "Al Rawda",
   icons: {
     icon: "/favicon.ico"
   }
 };
+
+
 
 export default function Home() {
   return (
